@@ -152,7 +152,7 @@ Bnb_with_hosts = Bnb_clean.merge(
     how='left'
 )
 
-# After a successful merge, I used a simple .isin on my host_type to see the single and experienced hosts
+# After a successful merge, I used a simple .isin on my host_focus to see the single and experienced hosts
 
 Bnb_host_focus = Bnb_with_hosts[
     Bnb_with_hosts['host_type'].isin(['single-host', 'experienced-host'])
