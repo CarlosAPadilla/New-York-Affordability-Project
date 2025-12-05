@@ -120,7 +120,6 @@ plt.show()
 #Q3 As a traveler, how do prices differ when booking with “experienced hosts” (many listings) vs one-place hosts?
 
 #To answer my question, I first performed another group by 'host_id', then applied an aggregate function to the host_listings to count how many unique listings a host had on AirBnB.
-#I used the host_id as a the identifier to ensure no duplicates were in my dataset. This is also helped to ensure I was grouping hosts properly. If the same host_id appeared on different property IDs, That would be an experienced host. 
 
 host_summary = (
     Bnb_clean
@@ -145,7 +144,7 @@ print(host_summary.head())
 
 #Afer completing this process and viewing the head of my resutls, I was able to see that I would need to combine my cleaned dataFrame and the new one I had just created. 
 
-# 3. I then performed a left merge between my clean Bnb dataFrame and host summary data frame, using host_id as my primary key
+# I then performed a left merge between my clean Bnb dataFrame and host summary data frame, using host_id as my primary key
 
 Bnb_with_hosts = Bnb_clean.merge(
     host_summary[['host_id', 'host_type']],
