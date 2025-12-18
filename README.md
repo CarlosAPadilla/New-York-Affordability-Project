@@ -9,6 +9,12 @@ This project analyzes NYC Airbnb listing data to identify the primary drivers of
 - Entire-home listings drive the majority of affordability variance
 - Neighborhood density has a stronger effect on price than review scores
 
+## Methodology
+- Cleaned and filtered 2019 NYC Airbnb listings for price outliers
+- Grouped listings by borough and room type
+- Visualized pricing distributions using Python (pandas, seaborn)
+
+
 ![NYC Airbnb Price Distribution](outputs/figures/new%20viz%201.png)
 
 
