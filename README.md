@@ -1,5 +1,16 @@
 # AirBnB Final Data Project
 
+## Executive Summary
+
+This project analyzes NYC Airbnb listing data to identify the primary drivers of short-term rental affordability across boroughs and neighborhoods. Using Python-based data cleaning and visualization, I examine how location, room type, and listing density influence nightly prices, with implications for travelers seeking cost-efficient accommodations.
+
+## Key Findings
+- Manhattan listings exhibit a significant price premium relative to outer boroughs
+- Entire-home listings drive the majority of affordability variance
+- Neighborhood density has a stronger effect on price than review scores
+
+![NYC Airbnb Price Distribution](outputs/figures/new%20viz%201.png)
+
 
 ## The Project
 
