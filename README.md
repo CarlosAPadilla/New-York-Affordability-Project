@@ -2,17 +2,20 @@
 
 ## Executive Summary
 
-This project analyzes NYC Airbnb listing data to identify the primary drivers of short-term rental affordability across boroughs and neighborhoods. Using Python-based data cleaning and visualization, I examine how location, room type, and listing density influence nightly prices, with implications for travelers seeking cost-efficient accommodations.
+This project analyzes NYC Airbnb listing data to identify the primary drivers of short-term rental affordability across boroughs and neighborhoods. Using Python-based data cleaning, exploratory analysis, and visualization, I examine how location, room type, host behavior, and listing density influence nightly prices, with implications for travelers seeking cost-efficient accommodations.
 
 ## Key Findings
-- Manhattan listings exhibit a significant price premium relative to outer boroughs
-- Entire-home listings drive the majority of affordability variance
-- Neighborhood density has a stronger effect on price than review scores
+
+- Manhattan listings exhibit a significant price premium relative to outer boroughs, with median nightly prices approximately **X–Y% higher** than Brooklyn and Queens.
+- Entire-home listings account for the majority of price variance, commanding a consistent premium over private-room listings across all boroughs.
+- Neighborhood listing density is more strongly correlated with price than review scores, suggesting supply concentration plays a larger role in affordability than reputation effects.
 
 ## Methodology
-- Cleaned and filtered 2019 NYC Airbnb listings for price outliers
-- Grouped listings by borough and room type
-- Visualized pricing distributions using Python (pandas, seaborn)
+
+- Cleaned and filtered 2019 NYC Airbnb listings to remove price outliers and incomplete records
+- Engineered features for borough, room type, and neighborhood listing density
+- Conducted exploratory data analysis using grouped summaries and visualizations
+- Evaluated affordability drivers through comparative pricing analysis across segments
 
 
 ![NYC Airbnb Price Distribution](outputs/figures/new%20viz%201.png)
